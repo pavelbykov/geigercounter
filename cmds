@@ -1,0 +1,4 @@
+sudo minicom -b 9600 -o -D /dev/ttyAMA0
+sudo killall gpsd
+sudo stty -F /dev/ttyAMA0 9600
+sudo gpsd /dev/ttyAMA0 -F /var/run/gpsd.sock

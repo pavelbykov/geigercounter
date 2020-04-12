@@ -1,0 +1,12 @@
+# Portable Geiger Counter & GPS Logger
+# note: come up with a better name (i.e. RAGNAROK)
+#
+#
+
+
+1. Log GPS location once in 30s
+2. Log number of counts in past 5 seconds
+3. 
+
+Table:
+time | Count 5s | Longitude | Latitude | Elevation | 

@@ -1,0 +1,8 @@
+# Create an instance.
+radiationWatch = RadiationWatch(24, 23)
+# Initialize it (setup GPIOs, interrupts).
+radiationWatch.setup()
+# Do something with the lib.
+print(radiationWatch.status())
+# Do not forget to properly close it (free GPIOs, etc.).
+radiationWatch.close()
